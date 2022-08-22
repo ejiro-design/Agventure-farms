@@ -99,3 +99,64 @@ h1 a{
     text-align: center;
     text-transform: uppercase;
 }
+
+.conventional-writeup .farming{
+    font-size: 40px;
+    font-family: Roboto mediuem;
+    text-align: center;
+}
+
+.conventional-writeup{
+    padding-top: 30px;
+    padding-left:100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+}
+
+.conventional-writeup h2{
+    font-size: 18px;
+    font-family: Roboto mediuem;
+    text-align: center;
+    padding:10px;
+    text-transform: uppercase ;
+    
+}
+
+.conventional-writeup p{
+    font-size:14px ;
+    font-family: Roboto mediuem;
+    text-align: center;
+}
+
+footer {
+    height: 50px;
+}
+
+footer p{
+    font-size: 14px;
+}
+
+.social-media {
+    position: fixed;
+    bottom: 0;
+    top: 90%;
+    left: 0%;
+    right: 0%;
+    background-color: white;
+    text-align: center;
+    padding:20px
+}
+
+.social-media>li {
+    display: inline-block;
+    width: 70px;
+    height: 3px;
+}
+
+.social-media i {
+    font-size: 100%;
+    color: #767c6b;
+    padding: 3px;
+    margin: 20px;
+    text-align: center;
+}
