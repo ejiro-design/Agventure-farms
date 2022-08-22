@@ -15,7 +15,7 @@ body{
     font-family: Roboto;
     color:#5f5f5f;
 }
-
+/* Home page */
 .header{
     overflow: hidden;
     padding:50px 10px;
@@ -27,23 +27,22 @@ body{
 }
 .square-box{
     background-color:rgb(1, 75, 60);
-    width: 100px;
+    width: 40px;
     height:100px;
 }
 
-/* .square-box2{
+.square-box2{
     background-color:rgb(1, 75, 60);
-    width: 100px;
+    width: 40px;
     height:100px;
+} 
+
+/* .logo{
     float:left;
 } */
 
-.logo{
-    padding-left:150px;
-}
-
 .logo img{
-    /* float:left; */
+    float:left;
     width:400px;
     height:100px;
 }
@@ -53,13 +52,30 @@ h1 a{
     width:50px;
 }
 
-.menu-button{
-    float:right;
-    cursor: pointer;
+#menu-button a:hover {
+    border-bottom: 1px solid #1aba22;
 }
+
+.active {
+    border-bottom: 1px solid #1aba22;
+}
+
+.menu-button{
+    cursor: pointer;
+    padding-right: 70px;
+    padding-top: 30px;
+}
+
+.menu-button ul{
+    align-content: space-between;
+    background-color: aquamarine;
+
+}
+
 .menu-button li {
     float: right;
     list-style-type: none;
+    padding:10px;
 }
 
 .menu-button a{
