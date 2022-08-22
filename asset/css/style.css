@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 56thStreet;
+    src: url(../asset/Font/56thStreet-Regular.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto;
+    color:#5f5f5f;
+}
+
+.header{
+    overflow: hidden;
+    padding:50px 10px;
+    background-color:rgb(246, 248, 245);
+    position:sticky;
+    top:0px;
+    display: flex;
+    justify-content: space-between;
+}
+.square-box{
+    background-color:rgb(1, 75, 60);
+    width: 100px;
+    height:100px;
+}
+
+/* .square-box2{
+    background-color:rgb(1, 75, 60);
+    width: 100px;
+    height:100px;
+    float:left;
+} */
+
+.logo{
+    padding-left:150px;
+}
+
+.logo img{
+    /* float:left; */
+    width:400px;
+    height:100px;
+}
+
+h1 a{
+    height: 50px;
+    width:50px;
+}
+
+.menu-button{
+    float:right;
+    cursor: pointer;
+}
+.menu-button li {
+    float: right;
+    list-style-type: none;
+}
+
+.menu-button a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-image{
+    background: url('../images/tractor more sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 670px;
+    width: 100%;
+}
+
+.main-image h1{
+    font-size: 60px;
+    font-family: 56thStreet,Roboto;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+}
